@@ -1,122 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
-<link rel="stylesheet" href="./hw1.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./hw1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="top-header">
-<div class="container">
-<div class="logo">
-    <img src="./assets/logo (1).png" alt="" />
-<span></span>
-</div>
+    <header class="top-bar">
+        <div class="subnavbar">
+             <div class="logo"></div>
+        <img src="./assets/logo (1).png" alt=""/>
+        <div class="search-box">
+            <input type="text" placeholder="Find your product">
+            <select>
+                <option>All Categories</option>
+            </select>
+            <button>🔍</button>
+        </div>
+        <div class="icons">
+        <i class="ri-heart-line"></i>
+        <i class="ri-handbag-line"></i>
+        </div>
+        </div>
+    </header>
 
-<div class="search-box">
-
-<input type="text" placeholder="Find your product">
-
-<select>
-<option>All Categories</option>
-<option>Sofa</option>
-<option>Chair</option>
-<option>Table</option>
-</select>
-
-<button>
-<i class="fa fa-search"></i>
-</button>
-
-</div>
-
-<div class="icons">
-<i class="fa-regular fa-heart"></i>
-<i class="fa-solid fa-bag-shopping"></i>
-</div>
-
-</header>
-
-<nav class="navbar">
-<div class="category">
-<i class="fa fa-bars"></i>
-All Categories
-</div>
-<ul>
-<li>Home</li>
-<li>Pages</li>
-<li>Shop</li>
-<li>Blog</li>
-<li>Gallery</li>
-</ul>
-<div class="offer">
-BLACK FRIDAY <span>Get 45% Off!</span>
-</div>
-</nav>
-<!-- <section class="hero">
-<div class="hero-text">
-
-</div> -->
-<div class="hero-img">
-<img src="assets/2-col-impact-living-clp.webp" alt="" />
-<div class="text">
-    <p>up to 30 % off</p>
-<h1>Let's make home<br>happy place</h1>
-</div>
-<button>VIEW COLLECTIONS</button>
-</div>
-<div class="banner-left">
-    <img src="./assets/feature2-min.jpg" alt=""/>
-    <div class="text">
+<div class="menu-bar">
+    <div class="submenu">
+        <div class="all-category">
+        <span class="icon">☰</span>
+        <span>All Categories</span>
+        <span class="arrow">▼</span>
+    </div>
+        <div class="nav-links">
+        <a href="#">Home ▼</a>
+        <a href="#">Pages ▼</a>
+        <a href="#">Shop ▼</a>
+        <a href="#">Blog ▼</a>
+        <a href="#">Gallery ▼</a>
+    </div>
+        <div class="offer">
+        <strong>BLACK FRIDAY</strong>
+        <p>Get 45% Off!</p>
+    </div>
     </div>
 </div>
-
-<div class="banner-right">
-<img src="./assets/feature1-min.jpg" alt=""/>
-</div>
-
-<div class="products">
-
-<div class="product">
-<img src="./assets/1-min-1-253x200-1.png">
-<p class="brand">Innovative Furnitures</p>
-<h4>Heavy Duty Antis</h4>
-<p class="price">$4,000.00</p>
-</div>
-
-<div class="product">
-<img src="./assets/Untitled-3-1.jpg">
-<p class="brand">Innovative Furnitures</p>
-<h4>Heavy Duty Anti</h4>
-<p class="price">$2,000.00</p>
-</div>
-
-<div class="product">
-<img src="./assets/red_color_chair-1.png">
-<p class="brand">Innovative Furnitures</p>
-<h4>Zinglo Wheel</h4>
-<p class="price">$3,000.00</p>
-</div>
-
-<div class="product">
-<img src="./assets/4-min.png">
-<p class="brand">Innovative Furnitures</p>
-<h4>Zinglo Wheel</h4>
-<p class="price">$5,000.00</p>
-</div>
-
-<!-- <footer class="footer">
-<div class="footer-container">
-<p>Copyrights By Xpeedstudio - 2018</p>
-<p>Allow payment base on</p>
-</div>
-</footer> -->
-
-</div>
+<section class="hero">
+  <div class="hero-content">
+    <p class="offer">Up to 30% Off</p>
+    <h1>Let’s make home<br>happy place</h1>
+    <button>VIEW COLLECTIONS</button>
+  </div>
 </section>
+  </div>
+  <br/><br/>
+  <br/><br/>
+
+  <section class="banners">
+  <div class="banner left-banner">
+    <img src="./assets/feature1-min.jpg" alt=""/>
+  </div>
+  <div class="banner right-banner">
+    <img src="./assets/feature2-min.jpg" alt=""/>
+    </div>
+</section>
+
+<section class="products1">
+  <div class="top-bar2">
+    <h2>New Arrivals</h2>
+    <ul class="menu">
+      <li class="active">On Sell</li>
+      <li>Hot Sell</li>
+      <li>Trend</li>
+      <li>Best Sell</li>
+    </ul>
+  </div>
+  <!-- PRODUCT GRID -->
+  <div class="product-grid1">
+
+    <div class="card">
+      <img src="./assets/1-min-1-253x200-1.png">
+      <p>Innovative Furnitures</p>
+      <h3>Heavy Duty Antis</h3>
+      <span>$4,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/Untitled-3-1.jpg">
+      <p>Innovative Furnitures</p>
+      <h3>Heavy Duty Anti</h3>
+      <span>$2,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/red_color_chair-1.png">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$3,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/4-min.png">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$5,000.00</span>
+    </div>
+      </div>
+</section>
+    <br/><br/>
+    <br/><br/>
+
+    <section class="mid">
+        <img src="./assets/Screenshot 2026-03-09 113705.png" alt=""/>
+      </div>
+    </section>
+<section class="products2">
+  <div class="top-bar3">
+    <h2>Recently Added</h2>
+    <ul class="menu">
+      <li class="active">On Sell</li>
+      <li>Hot Sell</li>
+      <li>Trend</li>
+      <li>Best Sell</li>
+    </ul>
+  </div>
+
+    <!-- PRODUCT GRID -->
+  <div class="product-grid2">
+
+    <div class="card">
+      <img src="./assets/1-min-1-253x200-1.png">
+      <p>Innovative Furnitures</p>
+      <h3>Heavy Duty Antis</h3>
+      <span>$4,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/Untitled-3-1.jpg">
+      <p>Innovative Furnitures</p>
+      <h3>Heavy Duty Anti</h3>
+      <span>$2,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/red_color_chair-1.png">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$3,000.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/4-min.png">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$5,000.00</span>
+    </div>
+
+        <div class="card">
+      <img src="./assets/3-3.jpg">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$5,000.00</span>
+    </div>
+
+        <div class="card">
+      <img src="./assets/2-min-300x300.png">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <span>$5,000.00</span>
+    </div>
+      </div>
+</section>
+
+
+<section class="categories">
+
+  <h2>Top Categories This Week</h2>
+
+  <div class="grid-container">
+
+    <!-- BIG LEFT CARD -->
+    <div class="big-card">
+      <p>Innovative Furnitures</p>
+      <h2>Zinglo Wheel</h2>
+      <img src="./assets/red_color_chair-1.png">
+    </div>
+
+    <!-- RIGHT SMALL CARDS -->
+    <div class="card">
+      <p>Innovative Furnitures</p>
+      <h3>Zinglo Wheel</h3>
+      <img src="./assets/4-min.png">
+    </div>
+
+    <div class="card">
+      <p>Innovative Furnitures</p>
+      <h3>Heavy Duty Anti</h3>
+      <img src="./assets/4-min.png">
+    </div>
+
+    <div class="card">
+      <p class="orange">chair</p>
+      <h3>Xpeed Wheel Rim</h3>
+      <img src="./assets/4-min.png">
+    </div>
+
+    <div class="card">
+      <p class="orange">chair</p>
+      <h3>Jhasu Helmet</h3>
+      <img src="./assets/3-3.jpg">
+    </div>
+  </div>
+</section>
+
+<section class="products4">
+  <div class="top-bar4">
+    <h2>Popular Products</h2>
+  </div>
+  <!-- PRODUCT GRID -->
+  <div class="product-grid4">
+
+    <div class="card">
+      <img src="./assets/1-2.jpg">
+      <p>Headphones</p>
+      <h3>Gamming Headphones</h3>
+      <span>$42.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/3-3.jpg">
+      <p>Mobile Projector</p>
+      <h3>Xspeed Projector</h3>
+      <span>$499.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/2-6.jpg">
+      <p>Future Product</p>
+      <h3>Xspeed Mobile</h3>
+      <span>$160.00</span>
+    </div>
+
+    <div class="card">
+      <img src="./assets/2-4.jpg">
+      <p>Featured Product Lamp</p>
+      <h3>Fanshionalbe Bedspread</h3>
+      <span>$10,000.00</span>
+    </div>
+      </div>
+</section>
+
+<section class="products5">
+  <div class="product-grid5">
+    <div class="cardco">
+      <img src="./assets/sponsors_1.png">
+    </div>
+        <div class="cardco">
+      <img src="./assets/sponsors_2.png">
+    </div>
+
+    <div class="cardco">
+      <img src="./assets/sponsors_3.png">
+    </div>
+
+    <div class="cardco">
+      <img src="./assets/sponsors_4.png">
+
+    </div>
+
+    <div class="cardco">
+      <img src="./assets/sponsors_5.png">
+    </div>
+      </div>
+</section>
+
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter">
+  <div class="newsletter-content">
+    
+    <div class="left">
+      <h2>Newsletter & Get Updates</h2>
+      <p>Sign up for our newsletter to get up-to-date from us</p>
+    </div>
+
+    <div class="right">
+      <input type="text" placeholder="Enter Your Mail Here .....">
+      <button>SUBMIT</button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- COLUMN 1 -->
+    <div class="col">
+      <p>Got Question? Call us 24/7</p>
+      <h3>[80] 1017 197</h3>
+      <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+      <button class="map-btn">View On Map</button>
+    </div>
+
+    <!-- COLUMN 2 -->
+    <div class="col">
+      <p>We Using</p>
+      <h3>Safe Payments</h3>
+      <p>Secured by:</p>
+    </div>
+
+    <!-- COLUMN 3 -->
+    <div class="col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li>Support Center</li>
+        <li>Term & Conditions</li>
+        <li>Shipping</li>
+        <li>Privacy Policy</li>
+        <li>Help</li>
+        <li>Products Return</li>
+        <li>FAQS</li>
+      </ul>
+    </div>
+
+    <!-- COLUMN 4 -->
+    <div class="col">
+      <h4>Our Stores</h4>
+      <ul>
+        <li>New York</li>
+        <li>London SF</li>
+        <li>Cockfosters BP</li>
+        <li>Los Angeles</li>
+        <li>Chicago</li>
+        <li>Las Vegas</li>
+        <li>Albarto</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- BACK TO TOP -->
+  <div class="back-top">↑ BACK TOP</div>
+
+</footer>
+</section>
+<div class="bottom-footer">
+  <p>Copyrights By Xpeedstudio - 2018</p>
+  <p>Allow payment base on</p>
+</div>
 </body>
 </html>
